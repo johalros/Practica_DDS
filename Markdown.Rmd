@@ -6,8 +6,6 @@ output:
   prettydoc::html_pretty:
     theme: architect
     highlight: github
-fig_width: 6 
-fig_height: 4 
 runtime: shiny
 fig_caption: yes
 header-includes:
