@@ -169,12 +169,8 @@ kable(RBL_table, "html", caption = "Table 1: Data description table") %>%
   pack_rows("Spam", 4, 6, label_row_css = "background-color: #c0d6e4; color: #101010; border-bottom: 2px solid;") %>%
   pack_rows("Abuse", 7, 9, label_row_css = "background-color: #c0d6e4; color: #101010; border-bottom: 2px solid;")
 ```
-----------------------------------------------
+
 <br />
-
-
-<!-- This is text -->
-<p class="p">Como primer paso para el desarrollo de la practica hemos tomado 9 diferentes Realtime Blackhole Lists (RBL)  del repositorio de GitHub del proyecto [*__FireHOL__*](https://github.com/firehol/blocklist-ipsets), de donde obtuvimos más de 60.000 IPs catalogadas como amenaza, a partir de allí recolectamos más información relevante para determinar el porcentaje de coincidencia que existe entre los ipset en función de la categoría a la cual pertenecen y a su ubicación geográfica.</p>  
 <br />
 
 
@@ -355,7 +351,7 @@ ggplot(data=countrys_spam, aes(x=Abrv, y=Freq, fill=Var1)) +
 
 
 <!-- This is text -->
-<p class="p">En esta segunda grafica podemos evidenciar que la tendencia de los países con mayor numero de IPs catalogadas como amenza, para este caso Spam, la lidera Estados Unidos. Los datos procesados nos indican que alrededor del 30% de las amenazas detectadas han provenido de esta región, por lo que podriamos inferir que se debe prestar especial atención al trafico que  provenga de Norteamérica.</p>
+<p class="p">En esta segunda grafica podemos evidenciar que la tendencia de los países con mayor número de IPs catalogadas como amenaza, para este caso Spam, la lidera Estados Unidos. Los datos procesados nos indican que alrededor del 30% de las amenazas detectadas han provenido de esta región, por lo que podríamos inferir que se debe prestar especial atención al tráfico que provenga de Norteamérica.</p>
 <br />
 <br />
 
@@ -475,7 +471,7 @@ shinyApp(ui = ui, server = server)
 <br />
 
 <!-- This is text -->
-<p class="p">Como finalización de este breve ejercicio se ha generado el presente reporte, los resultados arrojados tras el procesamiento y análisis grafico de los datos no nos permite inferir una solución a la pregunta planteada inicialmente, sin embargo, si nos permite establecer la relación que tienen el origen de las IPs y su comportamiento malicioso, por lo cual, se hace necesario recolectar más información al respecto para complementar y profundizar el análisis propuesto por el grupo para esta actividad practica .</p>
+<p class="p">Como finalización de este breve ejercicio se ha generado el presente reporte, los resultados arrojados tras el procesamiento y análisis grafico de los datos no nos permite inferir una solución a la pregunta planteada inicialmente, sin embargo, si nos permite establecer la relación que tienen el origen de las IPs y su comportamiento malicioso, por lo cual, se hace necesario recolectar más información al respecto para complementar y profundizar el análisis propuesto por el grupo para esta actividad práctica .</p>
 <br />
 
 <p class="list">PRACTICA / DATA DRIVEN SECURITY</p>
