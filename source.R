@@ -3,7 +3,6 @@
 #                             PACKAGES, LIBRARYS AND VARIABLES                             #
 ############################################################################################
 
-setwd("C:/Users/Just someone_else/Documents/Practica_DDS")
 library(easypackages)
 lybrarys <- c("base64enc","bookdown", "cowplot", "curl", "devtools", "doParallel", "dplyr",
               "egg", "ggmap", "ggplot2", "grid", "gridExtra", "hrbrthemes", "htmltools",
